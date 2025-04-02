@@ -1,6 +1,6 @@
 
 
-## [testt](test.md)
+## [t1](test.md)
 
 $\alpha$
 
