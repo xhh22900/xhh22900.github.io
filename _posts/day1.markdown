@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "test"
+title:  "Welcome to Jekyll!---"
 date:   2025-04-03 09:26:58 +0800
-categories: test
+categories: jekyll update
 ---
 
 <head>
@@ -17,35 +17,7 @@ categories: test
     </script>
 </head>
 
-## testtttt()
+$\alpha$i
 
-$$
-E=mc^2
-$$
-
-$$\begin{align}
-\bm a\cdot \bm b=a_ib^i=a_ib_j\delta ^{ij}
-\end{align}
-$$
-`---`
-#
-
----
-
-$\pi\alpha\beta\psi\phi$
-
-
-```python 
-#test codes
-import numpy as np
-import scipy as sp
-
-print(np.pi)
-for x in range(100):
-    print(x)
-
-```
-test
-
-## [main](README.md)
+[main page](README.md)
 
