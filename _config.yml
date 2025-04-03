@@ -23,10 +23,10 @@ email: huihuixie@jlu.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   Current status  "Ding Xin" postdoctor in College of Physics, Jilin University.
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "ORCID" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: None
+github_username:  xhh22900
 
 # Build settings
 theme: minima
