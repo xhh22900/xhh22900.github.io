@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "day1"
+title:  "test1"
 date:   2025-04-03 09:26:58 +0800
 categories: jekyll update
 ---
@@ -17,7 +17,7 @@ categories: jekyll update
     </script>
 </head>
 
-$\alpha$i
+$\alpha$
 
 [main page](README.md)
 
