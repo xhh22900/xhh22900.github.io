@@ -19,5 +19,4 @@ categories: jekyll update
 
 $\alpha$
 
-[main page](README.md)
 

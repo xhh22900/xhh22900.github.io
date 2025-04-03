@@ -23,9 +23,6 @@ $$
 E=mc^2
 $$
 
-$$
-\vec a\cdot \vec b=a_ib^i=a_ib_j\delta ^{ij}
-$$
 
 `---`
 #
