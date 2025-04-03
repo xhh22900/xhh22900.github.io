@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Default page"
+title:  "Default Page"
 date:   2025-04-03 09:26:58 +0800
 categories: jekyll update
 ---
