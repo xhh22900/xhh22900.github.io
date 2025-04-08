@@ -43,6 +43,6 @@ H. H. Xie, J. Li, L. G. Jiao, and Y. K. Ho, [Phys. Rev. A **107**,
 4. Revisiting the extraction of charge radii of $^{40}\mathrm{Ca}$ and $^{208}\mathrm{Pb}$ with muonic atom spectroscopy. 
 H. H. Xie, T. Naito, J. Li, and H. Liang, [Phys. Lett. B **846**, 138232 (2023)](https://doi.org/10.1016/j.physletb.2023.138232).
 5. Extraction of higher-order radial moments of nuclear charge density from muonic atom spectroscopy. 
-H.H.Xie,J.Li, and H.Liang, [Phys.Rev.C **109**,034309(2024)](https://doi.org/10.1103/PhysRevC.109.034309).
+H. H. Xie,J. Li, and H. Liang, [Phys.Rev.C **109**,034309(2024)](https://doi.org/10.1103/PhysRevC.109.034309).
 6.  Impact of intrinsic electromagnetic structure on the nuclear charge radius in relativistic density functional theory. 
 H. H. Xie and J. Li, [Phys. Rev. C **110**, 064319(2024)](https://doi.org/10.1103/PhysRevC.110.064319).
