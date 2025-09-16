@@ -48,3 +48,5 @@ H. H. Xie, T. Naito, J. Li, and H. Liang, [Phys. Lett. B **846**, 138232 (2023)]
 H. H. Xie,J. Li, and H. Liang, [Phys.Rev.C **109**,034309(2024)](https://doi.org/10.1103/PhysRevC.109.034309).
 6.  Impact of intrinsic electromagnetic structure on the nuclear charge radius in relativistic density functional theory. 
 H. H. Xie and J. Li, [Phys. Rev. C **110**, 064319(2024)](https://doi.org/10.1103/PhysRevC.110.064319).
+7.  Charge radii of calcium isotopes within relativistic density functional theory: The finite size of the nucleon and quadrupole shape-fluctuation effects.
+H. H. Xie, J. Li, Y. L. Yang, and P. W. Zhao, [Phys. Rev. C **112**, L021303(2025)](https://doi.org/10.1103/1kbz-rx3m).
