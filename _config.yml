@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Main Page of Hui Hui Xie
+title: Hui Hui Xie · 谢辉辉
 email: huihuixie@jlu.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
-  Current status ->  Ding Xin  postdoctor in College of Physics, Jilin University.
+  Nuclear structure and precision atomic physics. Hui Hui Xie, Dingxin Postdoctoral Researcher at Jilin University.
 
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: None
+url: "https://xhh22900.github.io"
+# No Twitter account is configured.
 github_username:  xhh22900
 
 # Build settings

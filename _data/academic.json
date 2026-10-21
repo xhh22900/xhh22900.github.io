@@ -1,0 +1,387 @@
+{
+  "updated": "2026-10-21",
+  "name": {
+    "zh": "谢辉辉",
+    "en": "Hui Hui Xie"
+  },
+  "email": "huihuixie@jlu.edu.cn",
+  "orcid": "0000-0002-6185-0856",
+  "affiliation": {
+    "zh": "吉林大学 · 物理学院",
+    "en": "College of Physics · Jilin University"
+  },
+  "role": {
+    "zh": "鼎新博士后",
+    "en": "Dingxin Postdoctoral Researcher"
+  },
+  "research": [
+    {
+      "number": "01",
+      "symbol": "ρ",
+      "field": "nuclear",
+      "title": {
+        "zh": "原子核电荷性质",
+        "en": "Nuclear charge properties"
+      },
+      "text": {
+        "zh": "基于协变密度泛函理论，研究核电荷分布、电荷半径与高阶径向矩，关注核子内禀电磁结构和四极形状涨落。",
+        "en": "Nuclear charge distributions, radii and higher radial moments within covariant density functional theory, with a focus on intrinsic nucleon structure and quadrupole shape fluctuations."
+      },
+      "note": {
+        "zh": "核结构理论 · 电荷分布",
+        "en": "Nuclear structure · Charge distributions"
+      }
+    },
+    {
+      "number": "02",
+      "symbol": "g",
+      "field": "atomic",
+      "title": {
+        "zh": "精密原子物理中的核结构效应",
+        "en": "Nuclear structure in atomic precision"
+      },
+      "text": {
+        "zh": "研究类氢离子与缪原子中的核体积效应，以及束缚电子 g 因子中的核结构贡献，连接微观核计算与精密测量。",
+        "en": "Finite-nuclear-size effects in hydrogenlike ions and muonic atoms, and nuclear contributions to bound-electron g factors: connecting microscopic nuclear calculations with precision observables."
+      },
+      "note": {
+        "zh": "核体积效应 · 束缚电子 g 因子",
+        "en": "Finite nuclear size · Bound-electron g factors"
+      }
+    },
+    {
+      "number": "03",
+      "symbol": "ψ",
+      "field": "quantum",
+      "title": {
+        "zh": "量子行走与量子动力学",
+        "en": "Quantum walks & quantum dynamics"
+      },
+      "text": {
+        "zh": "硕士阶段研究了 Sierpinski 分形网络上的离散时间量子行走。以此为研究基础，关注量子信息及其与现有研究的交叉可能。",
+        "en": "My master’s research included discrete-time quantum walks on Sierpinski fractal networks. This provides a foundation for exploring connections between quantum information and my current research."
+      },
+      "note": {
+        "zh": "早期研究 · 可拓展方向",
+        "en": "Earlier research · Continuing interest"
+      }
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Charge radii of calcium isotopes within relativistic density functional theory: The finite size of the nucleon and quadrupole shape-fluctuation effects",
+      "authors": "**H. H. Xie**, J. Li, Y. L. Yang, and P. W. Zhao",
+      "journal": "Phys. Rev. C **112**, L021303 (2025)",
+      "url": "https://doi.org/10.1103/1kbz-rx3m",
+      "year": 2025,
+      "first_author": true,
+      "selected": true,
+      "field": "nuclear",
+      "letter": true,
+      "search_keywords": "钙同位素 电荷半径 核子内禀电磁结构 四极形状涨落"
+    },
+    {
+      "id": 2,
+      "title": "Impact of intrinsic electromagnetic structure on the nuclear charge radius in relativistic density functional theory",
+      "authors": "**H. H. Xie** and J. Li",
+      "journal": "Phys. Rev. C **110**, 064319 (2024)",
+      "url": "https://doi.org/10.1103/PhysRevC.110.064319",
+      "year": 2024,
+      "first_author": true,
+      "selected": true,
+      "field": "nuclear",
+      "letter": false,
+      "search_keywords": "核子内禀电磁结构 原子核电荷半径"
+    },
+    {
+      "id": 3,
+      "title": "Extraction of higher-order radial moments of nuclear charge density from muonic atom spectroscopy",
+      "authors": "**H. H. Xie**, J. Li, and H. Liang",
+      "journal": "Phys. Rev. C **109**, 034309 (2024)",
+      "url": "https://doi.org/10.1103/PhysRevC.109.034309",
+      "year": 2024,
+      "first_author": true,
+      "selected": true,
+      "field": "nuclear",
+      "letter": false,
+      "search_keywords": "缪原子光谱 核电荷密度 高阶径向矩"
+    },
+    {
+      "id": 4,
+      "title": "Revisiting the extraction of charge radii of ^{40}Ca and ^{208}Pb with muonic atom spectroscopy",
+      "authors": "**H. H. Xie**, T. Naito, J. Li, and H. Liang",
+      "journal": "Phys. Lett. B **846**, 138232 (2023)",
+      "url": "https://doi.org/10.1016/j.physletb.2023.138232",
+      "year": 2023,
+      "first_author": true,
+      "selected": false,
+      "field": "nuclear",
+      "letter": false,
+      "search_keywords": "缪原子光谱 提取 电荷半径 钙 铅"
+    },
+    {
+      "id": 5,
+      "title": "Finite-nuclear-size effect in hydrogenlike ions with relativistic nuclear structure",
+      "authors": "**H. H. Xie**, J. Li, L. G. Jiao, and Y. K. Ho",
+      "journal": "Phys. Rev. A **107**, 042807 (2023)",
+      "url": "https://doi.org/10.1103/PhysRevA.107.042807",
+      "year": 2023,
+      "first_author": true,
+      "selected": true,
+      "field": "atomic",
+      "letter": false,
+      "search_keywords": "类氢离子 相对论核结构 核体积效应"
+    },
+    {
+      "id": 6,
+      "title": "High-precision calculation of relativistic corrections for hydrogen-like atoms with screened Coulomb potentials",
+      "authors": "**H. H. Xie**, L. G. Jiao, A. Liu, and Y. K. Ho",
+      "journal": "Int. J. Quantum Chem. **121**, e26653 (2021)",
+      "url": "https://doi.org/10.1002/qua.26653",
+      "year": 2021,
+      "first_author": true,
+      "selected": false,
+      "field": "atomic",
+      "letter": false,
+      "search_keywords": "原子物理精密计算 屏蔽库仑势 相对论修正"
+    },
+    {
+      "id": 7,
+      "title": "Quantum walks on Sierpinski gasket and Sierpinski tetrahedron",
+      "authors": "**H. H. Xie** and G. M. Zeng",
+      "journal": "Quantum Inf. Process. **20**, 240 (2021)",
+      "url": "https://doi.org/10.1007/s11128-021-03171-4",
+      "year": 2021,
+      "first_author": true,
+      "selected": false,
+      "field": "quantum",
+      "letter": false,
+      "search_keywords": "量子信息 量子行走 分形 三角形 四面体"
+    },
+    {
+      "id": 8,
+      "title": "Microscopic study of charge properties in halo nuclei",
+      "authors": "Y. D. Wang, **H. H. Xie**, T. S. Shang, P. X. Du, J. Li, H. Liang, and K. Zhang",
+      "journal": "Phys. Rev. C **114**, 024315 (2026)",
+      "url": "https://doi.org/10.1103/vnmp-n6vf",
+      "year": 2026,
+      "first_author": false,
+      "selected": false,
+      "field": "nuclear",
+      "letter": false,
+      "search_keywords": "晕核 电荷性质 微观研究"
+    },
+    {
+      "id": 9,
+      "title": "Finite-nuclear-size effect for hydrogenlike ions under high external pressure",
+      "authors": "D. S. Liu, **H. H. Xie**, P. X. Du, T. S. Shang, J. Li, J. G. Li, and T. Naito",
+      "journal": "Commun. Theor. Phys. **78**, 075301 (2026)",
+      "url": "https://doi.org/10.1088/1572-9494/ae5646",
+      "year": 2026,
+      "first_author": false,
+      "selected": false,
+      "field": "atomic",
+      "letter": false,
+      "search_keywords": "高外压 受限 类氢离子 核体积效应"
+    },
+    {
+      "id": 10,
+      "title": "Predictions of charge density distributions for nuclei with *Z* ≥ 8",
+      "authors": "Y. D. Wang, T. S. Shang, **H. H. Xie**, P. X. Du, J. Li, and H. Liang",
+      "journal": "Nucl. Sci. Tech. **37**, 93 (2026)",
+      "url": "https://doi.org/10.1007/s41365-026-01905-6",
+      "year": 2026,
+      "first_author": false,
+      "selected": false,
+      "field": "nuclear",
+      "letter": false,
+      "search_keywords": "原子核电荷密度 全局预测 深度学习 机器学习"
+    },
+    {
+      "id": 11,
+      "title": "Point-proton density distributions of stable nuclei",
+      "authors": "T. Y. Wu, B. H. Sun, **H. H. Xie**, J. Y. Xu, and G. Guo",
+      "journal": "At. Data Nucl. Data Tables **165**, 101733 (2025)",
+      "url": "https://doi.org/10.1016/j.adt.2025.101733",
+      "year": 2025,
+      "first_author": false,
+      "selected": false,
+      "field": "nuclear",
+      "letter": false,
+      "search_keywords": "稳定原子核 点质子密度 数据表"
+    },
+    {
+      "id": 12,
+      "title": "Global prediction of nuclear charge density distributions using a deep neural network",
+      "authors": "T. S. Shang, **H. H. Xie**, J. Li, and H. Liang",
+      "journal": "Phys. Rev. C **110**, 014308 (2024)",
+      "url": "https://doi.org/10.1103/PhysRevC.110.014308",
+      "year": 2024,
+      "first_author": false,
+      "selected": false,
+      "field": "nuclear",
+      "letter": false,
+      "search_keywords": "深度神经网络 机器学习 原子核电荷密度"
+    },
+    {
+      "id": 13,
+      "title": "Nuclear mass table in deformed relativistic Hartree-Bogoliubov theory in continuum, II: Even-*Z* nuclei",
+      "authors": "P. Guo *et al.* (including **H. H. Xie**)",
+      "journal": "At. Data Nucl. Data Tables **158**, 101661 (2024)",
+      "url": "https://doi.org/10.1016/j.adt.2024.101661",
+      "year": 2024,
+      "first_author": false,
+      "selected": false,
+      "field": "nuclear",
+      "letter": false,
+      "search_keywords": "核质量表 连续谱 形变 相对论 偶质子数"
+    },
+    {
+      "id": 14,
+      "title": "Critical screening parameters and critical behaviors of one-electron systems with screened Coulomb potentials",
+      "authors": "L. G. Jiao, **H. H. Xie**, A. Liu, H. E. Montgomery Jr., and Y. K. Ho",
+      "journal": "J. Phys. B **54**, 175002 (2021)",
+      "url": "https://doi.org/10.1088/1361-6455/ac259c",
+      "year": 2021,
+      "first_author": false,
+      "selected": false,
+      "field": "atomic",
+      "letter": false,
+      "search_keywords": "单电子 屏蔽库仑势 临界屏蔽参数 临界行为"
+    }
+  ],
+  "manuscripts": [
+    {
+      "title": "Microscopic nuclear structure calculations unlock high-order recoil tests in bound-electron g factors",
+      "authors": "**H. H. Xie**, J. Li, B. S. Tu, H. Liang, and X. W. Ma",
+      "status": {
+        "zh": "投稿 Phys. Rev. Lett. · 在审",
+        "en": "Submitted to Phys. Rev. Lett. · Under review"
+      },
+      "url": null
+    },
+    {
+      "title": "The pseudospectral method for the Dirac equation with confining potential",
+      "authors": "D. S. Liu, **H. H. Xie**, P. X. Du, J. Li, and T. Naito",
+      "status": {
+        "zh": "预印本 · arXiv:2605.25390 (2026)",
+        "en": "Preprint · arXiv:2605.25390 (2026)"
+      },
+      "url": "https://arxiv.org/abs/2605.25390"
+    }
+  ],
+  "experience": [
+    {
+      "date": "2024.12 — present",
+      "date_zh": "2024.12 — 至今",
+      "title": {
+        "zh": "鼎新博士后",
+        "en": "Dingxin Postdoctoral Researcher"
+      },
+      "place": {
+        "zh": "吉林大学物理学院",
+        "en": "College of Physics, Jilin University"
+      },
+      "detail": {
+        "zh": "合作导师：李剑",
+        "en": "Advisor: Jian Li"
+      }
+    },
+    {
+      "date": "2021.09 — 2024.09",
+      "title": {
+        "zh": "粒子物理与原子核物理 · 博士",
+        "en": "Ph.D. in Particle and Nuclear Physics"
+      },
+      "place": {
+        "zh": "吉林大学物理学院",
+        "en": "College of Physics, Jilin University"
+      },
+      "detail": {
+        "zh": "导师：李剑。研究核电荷性质及其在原子物理中的应用。",
+        "en": "Advisor: Jian Li. Microscopic nuclear charge properties and their applications in atomic physics."
+      }
+    },
+    {
+      "date": "2018.09 — 2021.06",
+      "title": {
+        "zh": "理论物理 · 硕士",
+        "en": "Master’s degree in Theoretical Physics"
+      },
+      "place": {
+        "zh": "吉林大学物理学院",
+        "en": "College of Physics, Jilin University"
+      },
+      "detail": {
+        "zh": "导师：焦利光、曾国模。量子信息研究约两年（曾国模指导），原子物理精密计算约一年（焦利光指导）。",
+        "en": "Advisors: Li Guang Jiao and Guo-Mo Zeng. About two years in quantum information with Prof. Zeng, followed by about one year in precision atomic calculations with Prof. Jiao."
+      }
+    },
+    {
+      "date": "2014.09 — 2018.06",
+      "title": {
+        "zh": "电子科学与技术 · 学士",
+        "en": "Bachelor’s degree in Electronic Science and Technology"
+      },
+      "place": {
+        "zh": "长春理工大学",
+        "en": "Changchun University of Science and Technology"
+      },
+      "detail": {
+        "zh": "",
+        "en": ""
+      }
+    }
+  ],
+  "talks": [
+    {
+      "date": "2026.06",
+      "title": "Microscopic Nuclear Structure Calculations Unlock High-Order Recoil Tests in Bound-Electron g Factors",
+      "event": {
+        "zh": "原子核物理与原子物理前沿问题研讨会 · 吉林大学",
+        "en": "Workshop on Frontiers in Nuclear and Atomic Physics · Jilin University"
+      }
+    },
+    {
+      "date": "2024.03",
+      "title": "从缪原子光谱提取电荷密度高阶矩的研究",
+      "event": {
+        "zh": "第十九届全国核结构大会 · 江西瑞昌",
+        "en": "19th National Conference on Nuclear Structure · Ruichang, Jiangxi"
+      }
+    },
+    {
+      "date": "2023.04",
+      "title": "基于协变密度泛函理论的 FNS 效应研究",
+      "event": {
+        "zh": "第十二期原子核物理中的协变密度泛函理论讲习班 · 天津",
+        "en": "12th School on Covariant Density Functional Theory in Nuclear Physics · Tianjin"
+      }
+    },
+    {
+      "date": "2022.08",
+      "title": "基于协变密度泛函理论的 FNS 效应研究",
+      "event": {
+        "zh": "第十八届全国核结构大会 · 贵阳",
+        "en": "18th National Conference on Nuclear Structure · Guiyang"
+      }
+    }
+  ],
+  "grant": {
+    "name": {
+      "zh": "中国博士后科学基金 · 第 78 批面上资助",
+      "en": "China Postdoctoral Science Foundation · General Program (78th batch)"
+    },
+    "project": {
+      "zh": "类氢离子核体积效应的微观研究",
+      "en": "Microscopic study of finite-nuclear-size effects in hydrogenlike ions"
+    },
+    "id": "2025M783390",
+    "role": {
+      "zh": "主持",
+      "en": "Principal investigator"
+    },
+    "year": "2025"
+  }
+}
