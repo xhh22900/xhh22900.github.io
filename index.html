@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://xhh22900.github.io/assets/images/research-mark.svg">
   <link rel="canonical" href="https://xhh22900.github.io/">
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/css/academic.css">
+  <link rel="stylesheet" href="assets/css/academic.css?v=20261021-branches">
   <script>document.documentElement.classList.add('js');try{var l=new URLSearchParams(location.search).get('lang')||localStorage.getItem('hhx-language');if(l==='en')document.documentElement.lang='en';}catch(e){}</script>
   <script src="assets/js/academic.js" defer></script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Hui Hui Xie","alternateName":"谢辉辉","url":"https://xhh22900.github.io/","sameAs":["https://orcid.org/0000-0002-6185-0856","https://github.com/xhh22900"],"email":"huihuixie@jlu.edu.cn","jobTitle":"Dingxin Postdoctoral Researcher","affiliation":{"@type":"CollegeOrUniversity","name":"Jilin University"},"knowsAbout":["Nuclear charge distributions","Covariant density functional theory","Finite-nuclear-size effects","Quantum walks"]}</script>
@@ -47,23 +47,48 @@
         </div>
         <p class="hero-publications"><span data-lang="zh">已发表期刊论文 14 篇，其中第一作者 7 篇。</span><span data-lang="en">14 published journal articles, including 7 as first author.</span> <a href="#publications"><span data-lang="zh">查看论文 →</span><span data-lang="en">Publications →</span></a></p>
       </div>
-      <figure class="research-diagram">
-        <figcaption><span data-lang="zh">核结构与精密原子物理</span><span data-lang="en">Nuclear structure &amp; atomic precision</span></figcaption>
-        <div class="diagram-step">
-          <span class="diagram-label"><span data-lang="zh">核电荷分布</span><span data-lang="en">Nuclear charge density</span></span>
+      <figure class="research-diagram" id="research-map">
+        <figcaption><span data-lang="zh">核电荷密度与研究问题</span><span data-lang="en">Nuclear charge density and research connections</span></figcaption>
+        <div class="density-source">
+          <span class="density-method"><span data-lang="zh">微观核结构计算</span><span data-lang="en">Microscopic nuclear calculations</span></span>
+          <span class="density-label"><span data-lang="zh">核电荷密度</span><span data-lang="en">Nuclear charge density</span></span>
           <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="rho subscript ch of r"><mrow><msub><mi>ρ</mi><mtext>ch</mtext></msub><mo stretchy="false">(</mo><mi>r</mi><mo stretchy="false">)</mo></mrow></math>
         </div>
-        <div class="diagram-arrow" aria-hidden="true">↓</div>
-        <div class="diagram-step">
-          <span class="diagram-label"><span data-lang="zh">电荷分布径向矩</span><span data-lang="en">Radial charge moments</span></span>
-          <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="expectation value of r to the nth power"><mrow><mo stretchy="false">⟨</mo><msup><mi>r</mi><mi>n</mi></msup><mo stretchy="false">⟩</mo></mrow></math>
+        <div class="density-branches">
+          <div class="density-branch">
+            <span class="branch-connector" aria-hidden="true"></span>
+            <div class="branch-observable">
+              <span class="diagram-label"><span data-lang="zh">电荷半径与径向矩</span><span data-lang="en">Charge radius &amp; radial moments</span></span>
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="charge radius and radial moments"><mrow><msub><mi>r</mi><mtext>ch</mtext></msub><mo>,</mo><mspace width="0.3em"/><mo stretchy="false">⟨</mo><msup><mi>r</mi><mi>n</mi></msup><mo stretchy="false">⟩</mo></mrow></math>
+            </div>
+            <div class="branch-context"><p class="branch-title"><span data-lang="zh">核结构性质</span><span data-lang="en">Nuclear structure properties</span></p><p><span data-lang="zh">Pb、Ca 同位素电荷半径的演化；晕核电荷性质。</span><span data-lang="en">Charge-radius evolution in Pb and Ca isotopes; charge properties of halo nuclei.</span></p></div>
+          </div>
+          <div class="density-branch">
+            <span class="branch-connector" aria-hidden="true"></span>
+            <div class="branch-observable">
+              <span class="diagram-label"><span data-lang="zh">能级与束缚电子 g 因子</span><span data-lang="en">Energies &amp; bound-electron g factor</span></span>
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="energy E and g factor"><mrow><mi>E</mi><mo>,</mo><mspace width="0.3em"/><mi>g</mi></mrow></math>
+            </div>
+            <div class="branch-context"><p class="branch-title"><span data-lang="zh">精密原子物理</span><span data-lang="en">Precision atomic physics</span></p><p><span data-lang="zh">核体积效应与核结构贡献；支持高阶核反冲修正的检验。</span><span data-lang="en">Finite-nuclear-size and nuclear-structure contributions; enabling tests of higher-order recoil corrections.</span></p></div>
+          </div>
+          <div class="density-branch">
+            <span class="branch-connector" aria-hidden="true"></span>
+            <div class="branch-observable">
+              <span class="diagram-label"><span data-lang="zh">电子散射微分截面</span><span data-lang="en">Electron-scattering cross section</span></span>
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="differential cross section d sigma over d Omega"><mfrac><mrow><mi mathvariant="normal">d</mi><mi>σ</mi></mrow><mrow><mi mathvariant="normal">d</mi><mi>Ω</mi></mrow></mfrac></math>
+            </div>
+            <div class="branch-context"><p class="branch-title"><span data-lang="zh">电子与原子核弹性散射</span><span data-lang="en">Elastic electron–nucleus scattering</span></p><p><span data-lang="zh">由核电荷密度计算散射可观测量。</span><span data-lang="en">Scattering observables calculated from the nuclear charge density.</span></p></div>
+          </div>
+          <div class="density-branch density-branch--inverse">
+            <span class="branch-connector" aria-hidden="true"></span>
+            <div class="branch-observable">
+              <span class="diagram-label"><span data-lang="zh">缪原子光谱</span><span data-lang="en">Muonic-atom spectroscopy</span></span>
+              <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="muonic transition energies"><mrow><mi mathvariant="normal">Δ</mi><msub><mi>E</mi><mi>μ</mi></msub></mrow></math>
+            </div>
+            <div class="branch-context"><p class="branch-title"><span data-lang="zh">理论计算与实验约束</span><span data-lang="en">Theory and experimental constraints</span></p><p><span data-lang="zh">以微观密度为基准，研究从光谱提取电荷半径与高阶矩，以及其中的模型依赖。</span><span data-lang="en">Microscopic-density benchmarks for extracting charge radii and higher moments from spectra, and assessing model dependence.</span></p></div>
+          </div>
         </div>
-        <div class="diagram-arrow" aria-hidden="true">↓</div>
-        <div class="diagram-step">
-          <span class="diagram-label"><span data-lang="zh">原子能级与束缚电子 g 因子</span><span data-lang="en">Atomic energies &amp; bound-electron g factor</span></span>
-          <math xmlns="http://www.w3.org/1998/Math/MathML" display="block" aria-label="energy E and g factor"><mrow><mi>E</mi><mo>,</mo><mspace width="0.3em"/><mi>g</mi></mrow></math>
-        </div>
-        <p class="diagram-note"><span data-lang="zh">研究联系示意</span><span data-lang="en">Schematic research connection</span></p>
+        <p class="diagram-note"><span data-lang="zh">实线箭头：由密度计算性质与可观测量。双向虚线：光谱计算与反演提取、实验约束。</span><span data-lang="en">Solid arrows: properties and observables calculated from the density. Dashed two-way link: spectral calculations, inverse extraction, and experimental constraints.</span></p>
       </figure>
     </section>
 
