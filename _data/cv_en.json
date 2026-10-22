@@ -1,0 +1,24 @@
+{
+  "updated": "2026-10-22",
+  "thesis": "Microscopic studies and applications of nuclear charge properties based on relativistic density functional theory",
+  "research_interests": [
+    "Nuclear charge distributions, radii, and higher radial moments within relativistic (covariant) density functional theory.",
+    "Nuclear-structure and finite-nuclear-size effects in precision atomic physics: hydrogenlike ions, muonic atoms, bound-electron g factors, and electron scattering.",
+    "Earlier work in precision atomic calculations and quantum walks; interest in connections to quantum information and numerical quantum dynamics."
+  ],
+  "contributions": [
+    "<b>Nuclear charge radii.</b> Studied intrinsic nucleon electromagnetic structure and quadrupole shape fluctuations to describe calcium-isotope radius evolution without local parameter readjustment [1, 2].",
+    "<b>Muonic-atom spectra.</b> Used microscopic charge densities to benchmark model dependence and methods for extracting charge radii, higher radial moments, and low-momentum form factors [3, 4].",
+    "<b>Finite nuclear size and g factors.</b> Calculated finite-nuclear-size corrections and assessed nuclear contributions to Ne isotope g-factor differences using deformation and Bayesian inference [5, S1].",
+    "<b>Quantum information and precision atomic calculations.</b> Master's work covered quantum walks on Sierpinski fractal networks [7], relativistic corrections for screened hydrogenlike atoms [6], and critical screening behavior [14]."
+  ],
+  "skills": [
+    "<b>Programming and computing.</b> Proficient in Fortran; working proficiency in Python (NumPy, SciPy, PyTorch), C/C++, and MATLAB. Experience with batch and multiprocessing workflows on Linux.",
+    "<b>Nuclear-structure calculations.</b> Use RCHB for research and modify or extend its data outputs as needed.",
+    "<b>Dirac solvers.</b> Maintain and use high-precision generalized pseudospectral solvers; familiar with the algorithm and kinetic-balance improvements.",
+    "<b>Electron scattering.</b> Independently wrote a Dirac partial-wave code for elastic electron-nucleus scattering, with reference to the open-source ELSEPA program.",
+    "<b>Quantum dynamics and atomic structure.</b> Simulations of quantum walks on fractal networks, including probability distributions, return probabilities, and standard deviations; precision calculations of screened one-electron systems.",
+    "<b>Theory and statistics.</b> Relativistic (covariant) density functional theory, Bayesian inference (MCMC), and machine-learning uncertainty quantification."
+  ],
+  "collaboration": "Contributed to collaborative studies of nuclear charge-density predictions, point-proton density distributions, the DRHBc nuclear mass table, and halo-nucleus charge properties [8-13]. Assisted the advisor in supervising graduate research on halo-nucleus charge properties and finite-nuclear-size effects in confined hydrogenlike ions, with outcomes including papers [8, 9] and preprint [S2]."
+}

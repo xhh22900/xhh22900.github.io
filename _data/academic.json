@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21",
+  "updated": "2026-10-22",
   "name": {
     "zh": "谢辉辉",
     "en": "Hui Hui Xie"
@@ -79,7 +79,11 @@
       "selected": true,
       "field": "nuclear",
       "letter": true,
-      "search_keywords": "钙同位素 电荷半径 核子内禀电磁结构 四极形状涨落"
+      "search_keywords": "钙同位素 电荷半径 核子内禀电磁结构 四极形状涨落",
+      "highlight": {
+        "zh": "结合核子内禀电磁结构与四极形状涨落，在密度泛函框架内解释钙同位素电荷半径的反常演化。",
+        "en": "Combines intrinsic nucleon electromagnetic structure and quadrupole shape fluctuations to describe the anomalous charge-radius evolution of calcium isotopes within density functional theory."
+      }
     },
     {
       "id": 2,
@@ -92,7 +96,11 @@
       "selected": true,
       "field": "nuclear",
       "letter": false,
-      "search_keywords": "核子内禀电磁结构 原子核电荷半径"
+      "search_keywords": "核子内禀电磁结构 原子核电荷半径",
+      "highlight": {
+        "zh": "系统研究核子内禀电磁结构对核电荷半径的贡献，改善同位素链电荷半径演化的描述。",
+        "en": "Assesses intrinsic nucleon electromagnetic contributions to nuclear charge radii and improves the description of radius evolution along isotope chains."
+      }
     },
     {
       "id": 3,
@@ -105,7 +113,11 @@
       "selected": true,
       "field": "nuclear",
       "letter": false,
-      "search_keywords": "缪原子光谱 核电荷密度 高阶径向矩"
+      "search_keywords": "缪原子光谱 核电荷密度 高阶径向矩",
+      "highlight": {
+        "zh": "以微观电荷密度为理论基准，研究从缪原子光谱提取二、四、六阶径向矩及低动量转移区电荷形状因子的方法。",
+        "en": "Uses microscopic charge-density benchmarks to study the extraction of second, fourth, and sixth radial moments and low-momentum charge form factors from muonic-atom spectra."
+      }
     },
     {
       "id": 4,
@@ -115,10 +127,14 @@
       "url": "https://doi.org/10.1016/j.physletb.2023.138232",
       "year": 2023,
       "first_author": true,
-      "selected": false,
+      "selected": true,
       "field": "nuclear",
       "letter": false,
-      "search_keywords": "缪原子光谱 提取 电荷半径 钙 铅"
+      "search_keywords": "缪原子光谱 提取 电荷半径 钙 铅",
+      "highlight": {
+        "zh": "分析从缪原子光谱提取钙、铅电荷半径时的模型依赖与参数可辨识性。",
+        "en": "Examines model dependence and parameter identifiability when extracting calcium and lead charge radii from muonic-atom spectra."
+      }
     },
     {
       "id": 5,
@@ -131,7 +147,11 @@
       "selected": true,
       "field": "atomic",
       "letter": false,
-      "search_keywords": "类氢离子 相对论核结构 核体积效应"
+      "search_keywords": "类氢离子 相对论核结构 核体积效应",
+      "highlight": {
+        "zh": "基于微观核电荷密度，系统计算类氢离子能级与束缚电子 g 因子的核体积修正。",
+        "en": "Systematically calculates finite-nuclear-size corrections to hydrogenlike-ion energies and bound-electron g factors using microscopic nuclear charge densities."
+      }
     },
     {
       "id": 6,
@@ -259,7 +279,11 @@
         "zh": "投稿 Phys. Rev. Lett. · 在审",
         "en": "Submitted to Phys. Rev. Lett. · Under review"
       },
-      "url": null
+      "url": null,
+      "summary": {
+        "zh": "结合微观核电荷密度、核形变计算与贝叶斯推断，评估 Ne 同位素束缚电子 g 因子差中的核结构贡献及其不确定度，为高阶核反冲修正的检验提供理论依据。",
+        "en": "Combines microscopic charge densities, nuclear deformation, and Bayesian inference to assess nuclear-structure contributions and uncertainties in the bound-electron g-factor difference of Ne isotopes, enabling tests of higher-order recoil corrections."
+      }
     },
     {
       "title": "The pseudospectral method for the Dirac equation with confining potential",
@@ -268,7 +292,11 @@
         "zh": "预印本 · arXiv:2605.25390 (2026)",
         "en": "Preprint · arXiv:2605.25390 (2026)"
       },
-      "url": "https://arxiv.org/abs/2605.25390"
+      "url": "https://arxiv.org/abs/2605.25390",
+      "summary": {
+        "zh": "研究受限势中 Dirac 方程的一般伪谱数值求解方法。",
+        "en": "Studies a pseudospectral numerical approach to the Dirac equation with confining potentials."
+      }
     }
   ],
   "experience": [
@@ -341,7 +369,8 @@
       "event": {
         "zh": "原子核物理与原子物理前沿问题研讨会 · 吉林大学",
         "en": "Workshop on Frontiers in Nuclear and Atomic Physics · Jilin University"
-      }
+      },
+      "title_en": "Microscopic Nuclear Structure Calculations Unlock High-Order Recoil Tests in Bound-Electron g Factors"
     },
     {
       "date": "2024.03",
@@ -349,7 +378,8 @@
       "event": {
         "zh": "第十九届全国核结构大会 · 江西瑞昌",
         "en": "19th National Conference on Nuclear Structure · Ruichang, Jiangxi"
-      }
+      },
+      "title_en": "Extracting Higher-Order Moments of Nuclear Charge Density from Muonic-Atom Spectroscopy"
     },
     {
       "date": "2023.04",
@@ -357,7 +387,8 @@
       "event": {
         "zh": "第十二期原子核物理中的协变密度泛函理论讲习班 · 天津",
         "en": "12th School on Covariant Density Functional Theory in Nuclear Physics · Tianjin"
-      }
+      },
+      "title_en": "Finite-Nuclear-Size Effects within Covariant Density Functional Theory"
     },
     {
       "date": "2022.08",
@@ -365,7 +396,8 @@
       "event": {
         "zh": "第十八届全国核结构大会 · 贵阳",
         "en": "18th National Conference on Nuclear Structure · Guiyang"
-      }
+      },
+      "title_en": "Finite-Nuclear-Size Effects within Covariant Density Functional Theory"
     }
   ],
   "grant": {

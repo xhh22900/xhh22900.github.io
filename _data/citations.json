@@ -1,0 +1,86 @@
+{
+  "1": {
+    "bibtex": "@article{Xie2025Paper01,\n  author = {Xie, H. H. and Li, J. and Yang, Y. L. and Zhao, P. W.},\n  title = {{Charge radii of calcium isotopes within relativistic density functional theory: The finite size of the nucleon and quadrupole shape-fluctuation effects}},\n  journal = {Physical Review C},\n  year = {2025},\n  volume = {112},\n  number = {2},\n  pages = {L021303},\n  doi = {10.1103/1kbz-rx3m},\n  url = {https://doi.org/10.1103/1kbz-rx3m},\n  eprint = {2508.09437},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-01.bib",
+    "arxiv_url": "https://arxiv.org/abs/2508.09437",
+    "metadata_source": "https://api.crossref.org/works/10.1103/1kbz-rx3m"
+  },
+  "2": {
+    "bibtex": "@article{Xie2024Paper02,\n  author = {Xie, Hui Hui and Li, Jian},\n  title = {{Impact of intrinsic electromagnetic structure on the nuclear charge radius in relativistic density functional theory}},\n  journal = {Physical Review C},\n  year = {2024},\n  volume = {110},\n  number = {6},\n  pages = {064319},\n  doi = {10.1103/PhysRevC.110.064319},\n  url = {https://doi.org/10.1103/PhysRevC.110.064319},\n  eprint = {2308.02309},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-02.bib",
+    "arxiv_url": "https://arxiv.org/abs/2308.02309",
+    "metadata_source": "https://api.crossref.org/works/10.1103/physrevc.110.064319"
+  },
+  "3": {
+    "bibtex": "@article{Xie2024Paper03,\n  author = {Xie, Hui Hui and Li, Jian and Liang, Haozhao},\n  title = {{Extraction of higher-order radial moments of nuclear charge density from muonic atom spectroscopy}},\n  journal = {Physical Review C},\n  year = {2024},\n  volume = {109},\n  number = {3},\n  pages = {034309},\n  doi = {10.1103/PhysRevC.109.034309},\n  url = {https://doi.org/10.1103/PhysRevC.109.034309},\n  eprint = {2310.09546},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-03.bib",
+    "arxiv_url": "https://arxiv.org/abs/2310.09546",
+    "metadata_source": "https://api.crossref.org/works/10.1103/physrevc.109.034309"
+  },
+  "4": {
+    "bibtex": "@article{Xie2023Paper04,\n  author = {Xie, Hui Hui and Naito, Tomoya and Li, Jian and Liang, Haozhao},\n  title = {{Revisiting the extraction of charge radii of$^{40}$Ca and$^{208}$Pb with muonic atom spectroscopy}},\n  journal = {Physics Letters B},\n  year = {2023},\n  volume = {846},\n  pages = {138232},\n  doi = {10.1016/j.physletb.2023.138232},\n  url = {https://doi.org/10.1016/j.physletb.2023.138232},\n  eprint = {2306.09026},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-04.bib",
+    "arxiv_url": "https://arxiv.org/abs/2306.09026",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.physletb.2023.138232"
+  },
+  "5": {
+    "bibtex": "@article{Xie2023Paper05,\n  author = {Xie, Hui Hui and Li, Jian and Jiao, Li Guang and Ho, Yew Kam},\n  title = {{Finite-nuclear-size effect in hydrogenlike ions with relativistic nuclear structure}},\n  journal = {Physical Review A},\n  year = {2023},\n  volume = {107},\n  number = {4},\n  pages = {042807},\n  doi = {10.1103/PhysRevA.107.042807},\n  url = {https://doi.org/10.1103/PhysRevA.107.042807},\n  eprint = {2309.15456},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-05.bib",
+    "arxiv_url": "https://arxiv.org/abs/2309.15456",
+    "metadata_source": "https://api.crossref.org/works/10.1103/physreva.107.042807"
+  },
+  "6": {
+    "bibtex": "@article{Xie2021Paper06,\n  author = {Xie, Hui Hui and Jiao, Li Guang and Liu, Aihua and Ho, Yew Kam},\n  title = {{High-precision calculation of relativistic corrections for hydrogen-like atoms with screened Coulomb potentials}},\n  journal = {International Journal of Quantum Chemistry},\n  year = {2021},\n  volume = {121},\n  number = {13},\n  pages = {e26653},\n  doi = {10.1002/qua.26653},\n  url = {https://doi.org/10.1002/qua.26653}\n}\n",
+    "file": "assets/files/bibtex/paper-06.bib",
+    "arxiv_url": null,
+    "metadata_source": "https://api.crossref.org/works/10.1002/qua.26653"
+  },
+  "7": {
+    "bibtex": "@article{Xie2021Paper07,\n  author = {Xie, Hui-Hui and Zeng, Guo-Mo},\n  title = {{Quantum walks on Sierpinski gasket and Sierpinski tetrahedron}},\n  journal = {Quantum Information Processing},\n  year = {2021},\n  volume = {20},\n  number = {7},\n  pages = {240},\n  doi = {10.1007/s11128-021-03171-4},\n  url = {https://doi.org/10.1007/s11128-021-03171-4}\n}\n",
+    "file": "assets/files/bibtex/paper-07.bib",
+    "arxiv_url": null,
+    "metadata_source": "https://api.crossref.org/works/10.1007/s11128-021-03171-4"
+  },
+  "8": {
+    "bibtex": "@article{Wang2026Paper08,\n  author = {Wang, Yun Dong and Xie, Hui Hui and Shang, Tian Shuai and Du, Peng Xiang and Li, Jian and Liang, Haozhao and Zhang, Kaiyuan},\n  title = {{Microscopic study of charge properties in halo nuclei}},\n  journal = {Physical Review C},\n  year = {2026},\n  volume = {114},\n  number = {2},\n  pages = {024315},\n  doi = {10.1103/vnmp-n6vf},\n  url = {https://doi.org/10.1103/vnmp-n6vf},\n  eprint = {2607.11156},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-08.bib",
+    "arxiv_url": "https://arxiv.org/abs/2607.11156",
+    "metadata_source": "https://api.crossref.org/works/10.1103/vnmp-n6vf"
+  },
+  "9": {
+    "bibtex": "@article{Liu2026Paper09,\n  author = {Liu, Dengshan and Xie, Huihui and Du, Pengxiang and Shang, Tianshuai and Li, Jian and Li, Jiguang and Naito, Tomoya},\n  title = {{Finite-nuclear-size effect for hydrogenlike ions under high external pressure}},\n  journal = {Communications in Theoretical Physics},\n  year = {2026},\n  volume = {78},\n  number = {7},\n  pages = {075301},\n  doi = {10.1088/1572-9494/ae5646},\n  url = {https://doi.org/10.1088/1572-9494/ae5646},\n  eprint = {2603.22901},\n  archivePrefix = {arXiv},\n  primaryClass = {physics.atom-ph}\n}\n",
+    "file": "assets/files/bibtex/paper-09.bib",
+    "arxiv_url": "https://arxiv.org/abs/2603.22901",
+    "metadata_source": "https://api.crossref.org/works/10.1088/1572-9494/ae5646"
+  },
+  "10": {
+    "bibtex": "@article{Wang2026Paper10,\n  author = {Wang, Yun-Dong and Shang, Tian-Shuai and Xie, Hui-Hui and Du, Peng-Xiang and Li, Jian and Liang, Hao-Zhao},\n  title = {{Predictions of charge density distributions for nuclei with *Z* $\\geq$ 8}},\n  journal = {Nuclear Science and Techniques},\n  year = {2026},\n  volume = {37},\n  number = {5},\n  pages = {93},\n  doi = {10.1007/s41365-026-01905-6},\n  url = {https://doi.org/10.1007/s41365-026-01905-6},\n  eprint = {2604.05312},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-10.bib",
+    "arxiv_url": "https://arxiv.org/abs/2604.05312",
+    "metadata_source": "https://api.crossref.org/works/10.1007/s41365-026-01905-6"
+  },
+  "11": {
+    "bibtex": "@article{Wu2025Paper11,\n  author = {Wu, Tian Yu and Sun, Bao Hua and Xie, Hui Hui and Xu, Jun Yao and Guo, Ge},\n  title = {{Point-proton density distributions of stable nuclei}},\n  journal = {Atomic Data and Nuclear Data Tables},\n  year = {2025},\n  volume = {165},\n  pages = {101733},\n  doi = {10.1016/j.adt.2025.101733},\n  url = {https://doi.org/10.1016/j.adt.2025.101733},\n  eprint = {2505.04876},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-11.bib",
+    "arxiv_url": "https://arxiv.org/abs/2505.04876",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.adt.2025.101733"
+  },
+  "12": {
+    "bibtex": "@article{Shang2024Paper12,\n  author = {Shang, Tian Shuai and Xie, Hui Hui and Li, Jian and Liang, Haozhao},\n  title = {{Global prediction of nuclear charge density distributions using a deep neural network}},\n  journal = {Physical Review C},\n  year = {2024},\n  volume = {110},\n  number = {1},\n  pages = {014308},\n  doi = {10.1103/PhysRevC.110.014308},\n  url = {https://doi.org/10.1103/PhysRevC.110.014308},\n  eprint = {2404.09558},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-12.bib",
+    "arxiv_url": "https://arxiv.org/abs/2404.09558",
+    "metadata_source": "https://api.crossref.org/works/10.1103/physrevc.110.014308"
+  },
+  "13": {
+    "bibtex": "@article{Guo2024Paper13,\n  author = {Guo, Peng and Cao, Xiaojie and Chen, Kangmin and Chen, Zhihui and Cheoun, Myung-Ki and Choi, Yong-Beom and Lam, Pak Chung and Deng, Wenmin and Dong, Jianmin and Du, Pengxiang and Du, Xiaokai and Duan, Kangda and Fan, Xiaohua and Gao, Wei and Geng, Lisheng and Ha, Eunja and He, Xiao-Tao and Hu, Jinniu and Huang, Jingke and Huang, Kun and Huang, Yanan and Huang, Zidan and Hyung, Kim Da and Chan, Hoi Yat and Jiang, Xiaofei and Kim, Seonghyun and Kim, Youngman and Lee, Chang-Hwan and Lee, Jenny and Li, Jian and Li, Minglong and Li, Zhipan and Li, Zhengzheng and Lian, Zhanjiang and Liang, Haozhao and Liu, Lang and Lu, Xiao and Liu, Zhi-Rui and Meng, Jie and Meng, Ziyan and Mun, Myeong-Hwan and Niu, Yifei and Niu, Zhongming and Pan, Cong and Peng, Jing and Qu, Xiaoying and Papakonstantinou, Panagiota and Shang, Tianshuai and Shang, Xinle and Shen, Caiwan and Shen, Guofang and Sun, Tingting and Sun, Xiang-Xiang and Wang, Sibo and Wang, Tianyu and Wang, Yiran and Wang, Yuanyuan and Wu, Jiawei and Wu, Liang and Wu, Xinhui and Xia, Xuewei and Xie, Huihui and Yao, Jiangming and Ip, Kwan Yau and Yiu, To Chung and Yu, Jianghan and Yu, Yangyang and Zhang, Kaiyuan and Zhang, Shijie and Zhang, Shuangquan and Zhang, Wei and Zhang, Xiaoyan and Zhang, Yanxin and Zhang, Ying and Zhang, Yingxun and Zhang, Zhenhua and Zhao, Qiang and Zhao, Yingchun and Zheng, Ruyou and Zhou, Chang and Zhou, Shan-Gui and Zou, Lianjian},\n  title = {{Nuclear mass table in deformed relativistic Hartree-Bogoliubov theory in continuum, II: Even-*Z* nuclei}},\n  journal = {Atomic Data and Nuclear Data Tables},\n  year = {2024},\n  volume = {158},\n  pages = {101661},\n  doi = {10.1016/j.adt.2024.101661},\n  url = {https://doi.org/10.1016/j.adt.2024.101661},\n  eprint = {2402.02935},\n  archivePrefix = {arXiv},\n  primaryClass = {nucl-th}\n}\n",
+    "file": "assets/files/bibtex/paper-13.bib",
+    "arxiv_url": "https://arxiv.org/abs/2402.02935",
+    "metadata_source": "https://api.crossref.org/works/10.1016/j.adt.2024.101661"
+  },
+  "14": {
+    "bibtex": "@article{Jiao2021Paper14,\n  author = {Jiao, Li Guang and Xie, Hui Hui and Liu, Aihua and Montgomery, Jr., H E and Ho, Yew Kam},\n  title = {{Critical screening parameters and critical behaviors of one-electron systems with screened Coulomb potentials}},\n  journal = {Journal of Physics B: Atomic, Molecular and Optical Physics},\n  year = {2021},\n  volume = {54},\n  number = {17},\n  pages = {175002},\n  doi = {10.1088/1361-6455/ac259c},\n  url = {https://doi.org/10.1088/1361-6455/ac259c}\n}\n",
+    "file": "assets/files/bibtex/paper-14.bib",
+    "arxiv_url": null,
+    "metadata_source": "https://api.crossref.org/works/10.1088/1361-6455/ac259c"
+  }
+}

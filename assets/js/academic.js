@@ -18,6 +18,7 @@
 
   function updatePapers() {
     const query = search.value.trim().toLowerCase();
+    root.dataset.publicationView = currentFilter === 'selected' && !currentField && !query ? 'selected' : currentFilter;
     let visible = 0;
     for (const paper of papers) {
       const matchesFilter = currentFilter === 'all' ||
@@ -40,17 +41,52 @@
 
   function setLanguage(language) {
     root.lang = language;
+    document.title = label('谢辉辉 Hui Hui Xie · 核结构与精密原子物理', 'Hui Hui Xie · Nuclear Structure & Precision Atomic Physics');
     languageButton.setAttribute('aria-label', english() ? '切换为中文' : 'Switch to English');
     const menuIsOpen = navigation.classList.contains('is-open');
     menuButton.setAttribute('aria-label', menuIsOpen ? label('关闭导航菜单', 'Close menu') : label('打开导航菜单', 'Open menu'));
     search.placeholder = label('搜索标题、作者、期刊或年份', 'Search title, author, journal, year');
     search.setAttribute('aria-label', label('搜索论文', 'Search publications'));
     document.querySelectorAll('.research-link').forEach(button => button.setAttribute('aria-label', label('查看相关论文', 'View related papers')));
+    document.querySelectorAll('.copy-feedback').forEach(status => { status.textContent = ''; });
     try { localStorage.setItem('hhx-language', language); } catch (_) {}
     updatePapers();
   }
 
-  languageButton.addEventListener('click', () => setLanguage(english() ? 'zh-CN' : 'en'));
+  languageButton.addEventListener('click', () => {
+    const headerBottom = document.querySelector('.site-header').getBoundingClientRect().bottom;
+    const anchor = [...document.querySelectorAll('main section[id]')].find(section => section.getBoundingClientRect().bottom > headerBottom + 12);
+    const beforeTop = anchor ? anchor.getBoundingClientRect().top : 0;
+    setLanguage(english() ? 'zh-CN' : 'en');
+    // Preserve the reading position when translated paragraphs change the layout.
+    if (anchor) requestAnimationFrame(() => requestAnimationFrame(() => {
+      const shift = anchor.getBoundingClientRect().top - beforeTop;
+      if (Math.abs(shift) > 1) window.scrollBy({top: shift, behavior: 'instant'});
+    }));
+  });
+  document.querySelectorAll('[data-copy-bib]').forEach(button => button.addEventListener('click', async () => {
+    const text = document.getElementById(button.dataset.copyBib).textContent;
+    const status = button.parentElement.querySelector('.copy-feedback');
+    try {
+      if (navigator.clipboard && window.isSecureContext) {
+        await navigator.clipboard.writeText(text);
+      } else {
+        const field = document.createElement('textarea');
+        field.value = text;
+        field.setAttribute('readonly', '');
+        field.style.position = 'fixed';
+        field.style.opacity = '0';
+        document.body.append(field);
+        field.select();
+        const copied = document.execCommand('copy');
+        field.remove();
+        if (!copied) throw new Error('Clipboard unavailable');
+      }
+      status.textContent = label('已复制', 'Copied');
+    } catch (_) {
+      status.textContent = label('复制失败，请选择下方文本或下载 .bib', 'Select the text below or download the .bib file');
+    }
+  }));
   filterButtons.forEach(button => button.addEventListener('click', () => {
     currentFilter = button.dataset.filter;
     currentField = null;

@@ -78,6 +78,7 @@ html[lang="en"] .name-secondary { font: 400 24px var(--sans); }
 h2 { margin: 0; font-size: 27px; font-weight: 600; line-height: 1.5; }
 html[lang="en"] h2 { font-family: var(--serif); font-size: 29px; }
 .text-link { font-size: 15px; display: inline-flex; gap: 8px; align-items: center; }
+.publication-links, .cv-downloads { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; }
 .research-grid { display: grid; gap: 20px; }
 .research-item { display: grid; grid-template-columns: 240px minmax(0,1fr); gap: 28px; }
 .research-item h3 { font-size: 18px; line-height: 1.7; margin: 0; font-weight: 600; }
@@ -119,6 +120,19 @@ html[lang="en"] h2 { font-family: var(--serif); font-size: 29px; }
 .paper-authors strong { color: var(--ink); font-weight: 600; }
 .paper-journal { margin: 4px 0 0; font-size: 16px; color: #384b5e; line-height: 1.7; }
 .paper-journal strong { font-weight: 600; }
+.paper-highlight { color: #3e5366; font-size: 15px; line-height: 1.85; margin: 12px 0 0; padding-left: 13px; border-left: 2px solid #c9d5e0; }
+html[data-publication-view]:not([data-publication-view="selected"]) .paper-highlight { display: none; }
+.paper-actions { display: flex; flex-wrap: wrap; align-items: baseline; gap: 7px 20px; margin-top: 11px; font-size: 14px; }
+.citation-details { min-width: 0; }
+.citation-details summary { cursor: pointer; color: var(--link); width: fit-content; text-underline-offset: 4px; }
+.citation-details summary:hover { text-decoration: underline; }
+.citation-details[open] { flex-basis: 100%; }
+.citation-panel { margin-top: 10px; padding: 13px 16px; border: 1px solid var(--line); background: var(--subtle); }
+.citation-toolbar { display: flex; align-items: center; gap: 8px 20px; flex-wrap: wrap; font-size: 13px; }
+.citation-toolbar button { font-size: 13px; color: var(--link); background: white; border: 1px solid #c7d1da; border-radius: 3px; padding: 4px 10px; }
+.citation-toolbar button:hover { background: #eaf0f6; }
+.copy-feedback { color: var(--muted); }
+.citation-panel pre { font: 12.5px/1.75 Consolas, "SFMono-Regular", monospace; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 270px; overflow: auto; margin: 13px 0 0; color: #364350; }
 .empty-state { margin: 22px 0; padding: 20px 0; color: var(--muted); }
 .subtle-note { font-size: 14px; color: var(--muted); }
 .manuscripts { margin-top: 31px; }
@@ -128,6 +142,7 @@ html[lang="en"] h2 { font-family: var(--serif); font-size: 29px; }
 .manuscript { padding-top: 14px; border-top: 1px solid var(--line); }
 .manuscript-status { font-size: 14px; color: #765b34; }
 .manuscript h4 { font: 400 21px/1.5 var(--serif); margin: 6px 0 7px; }
+.manuscript-summary { font-size: 15px; line-height: 1.85; color: #4d5d6c; margin: 9px 0 0; }
 .about-grid { display: grid; grid-template-columns: minmax(0,1.6fr) minmax(0,1fr); gap: 50px; }
 .timeline-item { display: grid; grid-template-columns: 142px minmax(0,1fr); gap: 17px; padding: 18px 0; border-top: 1px solid var(--line); }
 .timeline-item:first-child { padding-top: 0; border-top: 0; }
@@ -155,6 +170,7 @@ html[lang="en"] h2 { font-family: var(--serif); font-size: 29px; }
 .contact-inner { display: flex; justify-content: space-between; align-items: center; gap: 40px; padding-block: 29px 34px; }
 .contact-section h2 { font-size: 24px; }
 .contact-section p { margin: 8px 0 0; font-size: 15px; color: var(--muted); }
+.contact-section .contact-affiliation { font-size: 14px; margin-top: 11px; }
 .contact-email { font-size: 22px; line-height: 1.5; }
 .contact-email > span { font-size: 17px; }
 .contact-links > div { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 11px; font-size: 14px; }
@@ -237,6 +253,11 @@ html[lang="en"] h2 { font-family: var(--serif); font-size: 29px; }
   .paper-year { font-size: 14px; }
   .paper-index { font-size: 12px; }
   .paper-authors, .paper-journal { font-size: 15px; }
+  .paper-highlight { font-size: 15px; margin-top: 11px; padding-left: 10px; }
+  .paper-actions { font-size: 14px; gap: 6px 17px; }
+  .citation-panel { padding: 11px; }
+  .citation-panel pre { font-size: 12px; }
+  .publication-links, .cv-downloads { gap: 6px 18px; }
   .manuscripts-heading h3 { font-size: 20px; }
   .manuscript h4 { font-size: 20px; }
   .about-grid { grid-template-columns: minmax(0,1fr); gap: 26px; }
@@ -267,6 +288,7 @@ html[lang="en"] h2 { font-family: var(--serif); font-size: 29px; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation: none !important; transition: none !important; } }
 @media print {
   .site-header, .research-diagram, .publication-controls, .publication-meta, .site-footer, .research-link { display: none !important; }
+  .paper-actions, .publication-links { display: none !important; }
   .shell { width: 100%; }
   .hero, .section { display: block; padding-block: 16px; }
   .paper[hidden] { display: grid !important; }

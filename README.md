@@ -24,14 +24,20 @@ python -m http.server 8765 --bind 127.0.0.1
 python _homepage/build.py
 ```
 
-此命令仅使用 Python 标准库，重新生成 `index.html`。默认显示四篇代表作，可筛选全部 14 篇已发表论文、七篇第一作者论文或量子信息工作。
+此命令仅使用 Python 标准库，重新生成 `index.html`。默认显示五篇代表作及其中英文导读，可筛选全部 14 篇已发表论文、七篇第一作者论文或量子信息工作。导读只在代表作视图显示。
 
 - 页面模板：`_homepage/index.template.html`
 - 样式与移动端布局：`assets/css/academic.css`
 - 语言切换、论文搜索、导航：`assets/js/academic.js`
 - 公开版学术简历：`assets/files/huihui-xie-academic-cv.pdf`
+- 公开版英文简历：`assets/files/huihui-xie-academic-cv-en.pdf`
+- 引用元数据：`_data/citations.json`
+- 完整 BibTeX 文件：`assets/files/huihui-xie-publications.bib`
+- 各论文 BibTeX 文件：`assets/files/bibtex/`
 
-主页和公开版简历不包含电话、出生年月或政治面貌。公开版简历需要单独维护。
+主页和公开版简历不包含电话、出生年月或政治面貌。中文公开版简历单独维护；英文简历读取共享学术记录和 `_data/cv_en.json`，运行 `python _homepage/build_cv_en.py` 生成，需要 ReportLab。
+
+每篇期刊论文提供 DOI 和可展开、复制、下载的 BibTeX。arXiv 链接按 DOI 在 INSPIRE 文献记录中匹配，只有确认存在对应版本的文章才显示链接。引用作者、期刊、卷期与文章号依据 Crossref DOI 元数据核对；现有合集包含 14 篇已发表期刊论文。个人学术入口采用已确认的 ORCID。
 
 ## 页面风格与数学符号
 
@@ -55,4 +61,4 @@ python _homepage/build.py
 - Chinese terminology: FNS → 核体积效应; generalized pseudospectral method → 一般伪谱法.
 - Master’s advisors: 焦利光 (precision atomic calculations), 曾国模 (quantum information).
 
-Last content update: 2026-10-21.
+Last content update: 2026-10-22.
