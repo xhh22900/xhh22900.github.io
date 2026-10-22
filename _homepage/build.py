@@ -30,6 +30,25 @@ def rich(text):
     return re.sub(r'\^\{(.+?)\}', r'<sup>\1</sup>', value)
 
 
+def diagram_works(branch):
+    links = []
+    papers_by_id = {paper['id']: paper for paper in DATA['publications']}
+    for work in DATA['diagram_work_links'][branch]:
+        kind, ident = work['type'], work['id']
+        if kind == 'paper':
+            target = f'paper-{ident}'
+            title = papers_by_id[ident]['title']
+        elif kind == 'manuscript':
+            target = f'manuscript-{ident}'
+            title = DATA['manuscripts'][ident - 1]['title']
+        elif kind == 'method':
+            target, title = str(ident), 'Electron-nucleus elastic scattering calculations'
+        else:
+            raise ValueError('Unknown work type: ' + kind)
+        links.append(f'<a class="diagram-work-link" data-work-kind="{esc(kind)}" href="#{esc(target)}" title="{esc(title)}">{bi(work["label"])}</a>')
+    return '<div class="diagram-work-links">' + '\n'.join(links) + '</div>'
+
+
 def research():
     blocks = []
     for item in DATA['research']:
@@ -62,10 +81,10 @@ def papers():
             </div></details>
           </div>'''
         search = re.sub(r'<[^>]+>', '', ' '.join([item['title'], item['authors'], item['journal'], str(item['year']), item.get('search_keywords', '')]))
-        blocks.append(f'''<article class="paper" data-id="{item['id']}" data-selected="{str(item['selected']).lower()}" data-first="{str(item['first_author']).lower()}" data-field="{item['field']}" data-search="{esc(search.lower())}">
+        blocks.append(f'''<article class="paper" id="paper-{item['id']}" tabindex="-1" aria-labelledby="paper-title-{item['id']}" data-id="{item['id']}" data-selected="{str(item['selected']).lower()}" data-first="{str(item['first_author']).lower()}" data-field="{item['field']}" data-search="{esc(search.lower())}">
           <div class="paper-year">{item['year']}<span class="paper-index">[{item['id']}]</span></div>
           <div class="paper-content"><div class="paper-tags">{''.join(tags)}</div>
-          <h3><a href="{esc(item['url'])}" target="_blank" rel="noopener noreferrer">{rich(item['title'])}<span class="external-arrow" aria-hidden="true">↗</span></a></h3>
+          <h3 id="paper-title-{item['id']}"><a href="{esc(item['url'])}" target="_blank" rel="noopener noreferrer">{rich(item['title'])}<span class="external-arrow" aria-hidden="true">↗</span></a></h3>
           <p class="paper-authors">{rich(item['authors'])}</p>
           <p class="paper-journal">{rich(item['journal'])}</p>{highlight}{actions}</div>
         </article>''')
@@ -74,12 +93,12 @@ def papers():
 
 def manuscripts():
     blocks = []
-    for item in DATA['manuscripts']:
+    for ident, item in enumerate(DATA['manuscripts'], 1):
         title = rich(item['title'])
         if item['url']:
             title = f'<a href="{esc(item["url"])}" target="_blank" rel="noopener noreferrer">{title} ↗</a>'
         summary = bi(item['summary'], tag='p', css='manuscript-summary') if item.get('summary') else ''
-        blocks.append(f'''<article class="manuscript">{bi(item['status'], css='eyebrow manuscript-status')}<h4>{title}</h4><p class="paper-authors">{rich(item['authors'])}</p>{summary}</article>''')
+        blocks.append(f'''<article class="manuscript" id="manuscript-{ident}" tabindex="-1" aria-labelledby="manuscript-title-{ident}">{bi(item['status'], css='eyebrow manuscript-status')}<h4 id="manuscript-title-{ident}">{title}</h4><p class="paper-authors">{rich(item['authors'])}</p>{summary}</article>''')
     return '\n'.join(blocks)
 
 
@@ -106,6 +125,10 @@ def main():
         'published_count': str(len(DATA['publications'])),
         'first_count': str(sum(p['first_author'] for p in DATA['publications'])),
         'updated': DATA['updated'],
+        'diagram_nuclear_works': diagram_works('nuclear'),
+        'diagram_atomic_works': diagram_works('atomic'),
+        'diagram_scattering_works': diagram_works('scattering'),
+        'diagram_muonic_works': diagram_works('muonic'),
     }
     template = (ROOT / '_homepage' / 'index.template.html').read_text(encoding='utf-8')
     output = Template(template).substitute(replacements)

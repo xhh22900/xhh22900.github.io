@@ -400,6 +400,25 @@
       "title_en": "Finite-Nuclear-Size Effects within Covariant Density Functional Theory"
     }
   ],
+  "diagram_work_links": {
+    "nuclear": [
+      {"type": "paper", "id": 2, "label": {"zh": "[2] Pb 等电荷半径 · PRC 2024", "en": "[2] Pb and other radii · PRC 2024"}},
+      {"type": "paper", "id": 1, "label": {"zh": "[1] Ca 半径演化 · PRC Letter 2025", "en": "[1] Ca radii · PRC Letter 2025"}},
+      {"type": "paper", "id": 8, "label": {"zh": "[8] 晕核电荷性质 · PRC 2026", "en": "[8] Halo charge properties · PRC 2026"}}
+    ],
+    "atomic": [
+      {"type": "paper", "id": 5, "label": {"zh": "[5] 核体积效应 · PRA 2023", "en": "[5] Finite nuclear size · PRA 2023"}},
+      {"type": "manuscript", "id": 1, "label": {"zh": "[S1] Ne g 因子 · PRL 在审", "en": "[S1] Ne g factors · PRL under review"}},
+      {"type": "paper", "id": 9, "label": {"zh": "[9] 受限类氢离子 · CTP 2026", "en": "[9] Confined hydrogenlike ions · CTP 2026"}}
+    ],
+    "scattering": [
+      {"type": "method", "id": "scattering-method", "label": {"zh": "电子散射截面计算程序（方法）", "en": "Electron-scattering code (method)"}}
+    ],
+    "muonic": [
+      {"type": "paper", "id": 4, "label": {"zh": "[4] 电荷半径提取 · PLB 2023", "en": "[4] Radius extraction · PLB 2023"}},
+      {"type": "paper", "id": 3, "label": {"zh": "[3] 高阶径向矩提取 · PRC 2024", "en": "[3] Higher radial moments · PRC 2024"}}
+    ]
+  },
   "grant": {
     "name": {
       "zh": "中国博士后科学基金 · 第 78 批面上资助",

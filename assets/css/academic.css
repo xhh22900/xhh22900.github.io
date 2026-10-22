@@ -72,6 +72,12 @@ html[lang="en"] .name-secondary { font: 400 24px var(--sans); }
 .diagram-label { color: var(--muted); font-size: 15px; line-height: 1.6; display: block; margin-bottom: 7px; }
 .branch-context p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.8; }
 .branch-context .branch-title { font-size: 16px; font-weight: 500; color: var(--ink); margin-bottom: 3px; }
+.diagram-work-links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 1px 18px; margin-top: 3px; }
+.diagram-work-link { font-size: 14px; line-height: 1.75; padding-block: 2px; text-decoration: underline; text-decoration-color: #bdcddd; }
+.diagram-work-link:hover { text-decoration-color: var(--link); }
+.diagram-work-link[data-work-kind="manuscript"] { color: #765b34; text-decoration-color: #d4c5af; }
+.paper, .manuscript, #scattering-method { scroll-margin-top: 14px; }
+.paper:target, .manuscript:target, #scattering-method:target { background: #f2f7fb; outline: 1px solid #c7d6e4; outline-offset: 7px; }
 .diagram-note { grid-column: 1/-1; color: #65717e; font-size: 13px; line-height: 1.8; margin: 18px 0 0; }
 .section { padding-block: 33px 38px; }
 .section-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; border-bottom: 1px solid #bcc7d2; padding-bottom: 10px; margin-bottom: 22px; }
@@ -158,6 +164,7 @@ html[data-publication-view]:not([data-publication-view="selected"]) .paper-highl
 .collaboration-note { padding-top: 28px; }
 .collaboration-note h3 { font-size: 18px; margin: 0 0 8px; font-weight: 600; }
 .collaboration-note p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.95; }
+.collaboration-note p + p { margin-top: 10px; }
 .talks-section { border-top: 1px solid var(--line); margin-top: 28px; padding-top: 23px; }
 .talks-header { display: flex; justify-content: space-between; gap: 16px; margin-bottom: 20px; align-items: baseline; }
 .talks-header h3 { margin: 0; font-size: 21px; font-weight: 600; }

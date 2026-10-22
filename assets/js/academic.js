@@ -39,6 +39,25 @@
     empty.hidden = visible !== 0;
   }
 
+  function revealWorkTarget(id, {focus = false, behavior = 'instant'} = {}) {
+    const target = document.getElementById(id);
+    if (!target || !target.matches('.paper, .manuscript, #scattering-method')) return;
+    if (target.classList.contains('paper') && target.hidden) {
+      currentFilter = 'all';
+      currentField = null;
+      search.value = '';
+      updatePapers();
+    }
+    requestAnimationFrame(() => {
+      target.scrollIntoView({block: 'start', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : behavior});
+      if (focus) target.focus({preventScroll: true});
+    });
+  }
+
+  function revealWorkFromHash() {
+    try { revealWorkTarget(decodeURIComponent(location.hash.slice(1))); } catch (_) {}
+  }
+
   function setLanguage(language) {
     root.lang = language;
     document.title = label('谢辉辉 Hui Hui Xie · 核结构与精密原子物理', 'Hui Hui Xie · Nuclear Structure & Precision Atomic Physics');
@@ -87,6 +106,20 @@
       status.textContent = label('复制失败，请选择下方文本或下载 .bib', 'Select the text below or download the .bib file');
     }
   }));
+  document.querySelectorAll('.diagram-work-link').forEach(link => link.addEventListener('click', event => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const id = decodeURIComponent(link.hash.slice(1));
+    if (!document.getElementById(id)) return;
+    event.preventDefault();
+    try {
+      if (location.hash !== link.hash) history.pushState(null, '', link.hash);
+    } catch (_) {
+      location.hash = link.hash;
+      return;
+    }
+    revealWorkTarget(id, {focus: true, behavior: 'smooth'});
+  }));
+  window.addEventListener('hashchange', revealWorkFromHash);
   filterButtons.forEach(button => button.addEventListener('click', () => {
     currentFilter = button.dataset.filter;
     currentField = null;
@@ -127,4 +160,5 @@
     document.querySelectorAll('main section[id]').forEach(section => observer.observe(section));
   }
   setLanguage(english() ? 'en' : 'zh-CN');
+  revealWorkFromHash();
 })();
